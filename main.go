@@ -11,9 +11,9 @@ import (
 	"API-HEXAGONAL/src/jutsu/dependenciesJutsu"
 	"API-HEXAGONAL/src/jutsu/infrastructureJutsu"
 	"API-HEXAGONAL/src/jutsu/infrastructureJutsu/routesJutsu"
-	"API-HEXAGONAL/src/shinobi/dependencies"
-	"API-HEXAGONAL/src/shinobi/infrastructure"
-	"API-HEXAGONAL/src/shinobi/infrastructure/routes"
+	"API-HEXAGONAL/src/materia/dependencies"
+	"API-HEXAGONAL/src/materia/infrastructure"
+	"API-HEXAGONAL/src/materia/infrastructure/routes"
 )
 
 func main() {

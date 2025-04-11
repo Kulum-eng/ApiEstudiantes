@@ -1,8 +1,8 @@
 package useCaseShinobi
 
 import (
-	"API-HEXAGONAL/src/shinobi/domain"
-	"API-HEXAGONAL/src/shinobi/domain/entities"
+	"API-HEXAGONAL/src/materia/domain"
+	"API-HEXAGONAL/src/materia/domain/entities"
 )
 
 type ViewShinobis struct {

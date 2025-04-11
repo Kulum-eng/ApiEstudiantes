@@ -1,13 +1,14 @@
 package routes
 
 import (
-	"API-HEXAGONAL/src/shinobi/dependencies"
 	"github.com/gin-gonic/gin"
+
+	"API-HEXAGONAL/src/materia/dependencies"
 )
 
-// Configura las rutas para los shinobis
+
 func SetupShinobiRoutes(router *gin.Engine, deps *dependencies.ShinobiDependencies) {
-	// Grupo de rutas para los shinobis
+	
 	shinobiGroup := router.Group("/v1/shinobis")
 	{
 		shinobiGroup.POST("", deps.CreateShinobiController.Run)

@@ -1,9 +1,11 @@
 package controllers
 
 import (
-	"API-HEXAGONAL/src/shinobi/application/useCaseShinobi"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+
+	"API-HEXAGONAL/src/materia/application/useCaseShinobi"
 )
 
 type CreateShinobiController struct {

@@ -1,10 +1,12 @@
 package controllers
 
 import (
-	"API-HEXAGONAL/src/shinobi/application/useCaseShinobi"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+
+	"API-HEXAGONAL/src/materia/application/useCaseShinobi"
 )
 
 type UpdateShinobiController struct {

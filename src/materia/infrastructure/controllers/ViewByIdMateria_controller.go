@@ -1,10 +1,12 @@
 package controllers
 
 import (
-	"API-HEXAGONAL/src/shinobi/domain"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+
+	"API-HEXAGONAL/src/materia/domain"
 )
 
 func GetByIdShinobiController(repo domain.IShinobi) gin.HandlerFunc {

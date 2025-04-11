@@ -1,10 +1,11 @@
 package dependencies
 
 import (
-	"API-HEXAGONAL/src/shinobi/application/useCaseShinobi"
-	"API-HEXAGONAL/src/shinobi/domain"
-	"API-HEXAGONAL/src/shinobi/infrastructure/controllers"
 	"github.com/gin-gonic/gin"
+
+	"API-HEXAGONAL/src/materia/application/useCaseShinobi"
+	"API-HEXAGONAL/src/materia/domain"
+	"API-HEXAGONAL/src/materia/infrastructure/controllers"
 )
 
 type ShinobiDependencies struct {
