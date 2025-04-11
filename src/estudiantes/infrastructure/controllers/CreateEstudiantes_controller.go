@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"API-HEXAGONAL/src/materia/application/useCaseShinobi"
+	"API-HEXAGONAL/src/estudiantes/application/useCaseShinobi"
 )
 
 type CreateShinobiController struct {

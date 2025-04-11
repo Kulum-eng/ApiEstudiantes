@@ -1,7 +1,7 @@
 package domain
 
 import (
-	"API-HEXAGONAL/src/materia/domain/entities"
+	"API-HEXAGONAL/src/estudiantes/domain/entities"
 )
 
 type IShinobi interface {

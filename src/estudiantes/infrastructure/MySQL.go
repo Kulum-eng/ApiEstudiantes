@@ -2,8 +2,8 @@ package infrastructure
 
 import (
 	"API-HEXAGONAL/src/core"
-	"API-HEXAGONAL/src/materia/domain"
-	"API-HEXAGONAL/src/materia/domain/entities"
+	"API-HEXAGONAL/src/estudiantes/domain"
+	"API-HEXAGONAL/src/estudiantes/domain/entities"
 )
 
 // MySQLRepository implementa la interfaz IShinobi

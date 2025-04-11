@@ -1,7 +1,7 @@
 package useCaseShinobi
 
 import (
-	"API-HEXAGONAL/src/materia/domain"
+	"API-HEXAGONAL/src/estudiantes/domain"
 )
 
 type UpdateShinobi struct {

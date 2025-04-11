@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"API-HEXAGONAL/src/materia/domain"
+	"API-HEXAGONAL/src/estudiantes/domain"
 )
 
 func GetByIdShinobiController(repo domain.IShinobi) gin.HandlerFunc {

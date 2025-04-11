@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/gin-gonic/gin"
 
-	"API-HEXAGONAL/src/materia/dependencies"
+	"API-HEXAGONAL/src/estudiantes/dependencies"
 )
 
 
